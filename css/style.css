@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box; }
+
+body {
+  background: #FDD835;
+  margin: 0;
+  padding: 0; }
+
+.swipper {
+  text-align: center;
+  background: #fff;
+  margin: auto;
+  border-radius: 5px;
+  height: auto;
+  padding: 27px 40px 27px 40px;
+  width: max-content;
+  position: relative;
+  top: 20%;
+  margin-top: 11%; }
+  @media (max-width: 992px) {
+    .swipper {
+      top: 50% !important;
+      margin-top: 50% !important; } }
+  .swipper h2 {
+    font-family: sans-serif;
+    letter-spacing: 2px; }
+  .swipper #error_message {
+    background: #e11414b8;
+    border-radius: 2px;
+    margin-bottom: 11px;
+    color: #fff;
+    font-family: sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 0%; }
+  .swipper form input {
+    border-radius: 2px;
+    color: #fff;
+    margin-bottom: 17px;
+    font-size: 18px;
+    background: #ccccccf7;
+    border: 1px solid transparent;
+    padding: 12px 96px 12px 26px;
+    font-family: sans-serif; }
+  .swipper form button {
+    cursor: pointer;
+    outline: 0;
+    background: #FFC107;
+    padding: 10px 41px;
+    border: 1px solid transparent;
+    color: #fff;
+    font-weight: bold;
+    transition: all .5s ease; }
+    .swipper form button:hover {
+      opacity: .7; }
+
+/*# sourceMappingURL=style.css.map */
